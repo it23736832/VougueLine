@@ -1,18 +1,27 @@
+export type SizeOption = {
+  size: string;
+  available: boolean;
+};
+
 export type Product = {
   id: string;
   name: string;
   description: string;
-  size: string;
+  sizes: SizeOption[];
   colors: string[];
   material: string;
   images: string[];
 };
 export const products: Product[] = [{
   id: 'VL001',
-  name: 'Sunset Cardigan',
-  description: 'A flowing open-front cardigan with delicate shell stitch pattern, perfect for layering.',
-  size: 'S / M / L',
-  colors: ['Terracotta', 'Sand', 'Ivory'],
+  name: 'Scarlet Sunset crop top',
+  description: 'Designed with delicate shoulder straps, Perfect for summer days or layering under a jacket ',
+  sizes: [
+    { size: 'S', available: true },
+    { size: 'M', available: false },
+    { size: 'L', available: false }
+  ],
+  colors: ['Scarlet'],
   material: '100% Organic Cotton',
   images: [
     '/images/products/VL001_product.png',
@@ -22,10 +31,15 @@ export const products: Product[] = [{
   ]
 }, {
   id: 'VL002',
-  name: 'Ocean Breeze Top',
-  description: 'Lightweight summer top with intricate wave pattern and adjustable tie straps.',
-  size: 'XS / S / M / L',
-  colors: ['Seafoam', 'White', 'Dusty Blue'],
+  name: 'Emerald Whisper Crochet Top',
+  description: 'Featuring a high neckline and textured stitchwork, this piece provides both comfort and sophistication',
+  sizes: [
+    { size: 'XS', available: false },
+    { size: 'S', available: true },
+    { size: 'M', available: false },
+    { size: 'L', available: false }
+  ],
+  colors: ['Green'],
   material: 'Bamboo Blend Yarn',
   images: ['/images/products/VL002_product.png',
     '/images/products/VL002_model_front.png',
@@ -33,10 +47,14 @@ export const products: Product[] = [{
     '/images/products/VL002_back.png']
 }, {
   id: 'VL003',
-  name: 'Meadow Vest',
-  description: 'Cropped vest featuring botanical-inspired motifs and mother-of-pearl buttons.',
-  size: 'S / M / L',
-  colors: ['Sage', 'Cream', 'Blush'],
+  name: 'Sunrise Coast Halter top',
+  description: 'Featuring a graceful halter neckline and a dreamy two-tone color palette',
+  sizes: [
+    { size: 'S', available: true },
+    { size: 'M', available: false },
+    { size: 'L', available: false }
+  ],
+  colors: ['Cream + Baby Blue'],
   material: 'Merino Wool Blend',
   images: ['/images/products/VL003_product.png',
     '/images/products/VL003_model_front.png',
@@ -44,10 +62,12 @@ export const products: Product[] = [{
     '/images/products/VL003_back.png']
 }, {
   id: 'VL004',
-  name: 'Dusk Shawl',
-  description: 'Oversized triangular shawl with gradient color work and delicate fringe detail.',
-  size: 'One Size',
-  colors: ['Mauve to Plum', 'Peach to Rose', 'Grey to Charcoal'],
+  name: 'Crochet Bag',
+  description: 'soft, dreamy, and very boutique-friendly.',
+  sizes: [
+    { size: 'One Size', available: true }
+  ],
+  colors: ['Pastel Pink + Pastel Green'],
   material: 'Alpaca Silk Blend',
   images: ['/images/products/VL004_front.png']
 }
