@@ -73,8 +73,8 @@ export function ProductDetail({
                   <span
                     key={index}
                     className={`px-3 py-1.5 text-sm rounded-full transition-all ${sizeOption.available
-                        ? 'bg-[#C17A6F] text-white font-medium'
-                        : 'bg-[#F0EDEA] text-[#B0B0B0] line-through'
+                      ? 'bg-[#C17A6F] text-white font-medium'
+                      : 'bg-[#F0EDEA] text-[#B0B0B0] line-through'
                       }`}
                   >
                     {sizeOption.size}
@@ -112,7 +112,7 @@ export function ProductDetail({
             <p className="text-sm text-[#8B8B8B] mb-3">
               Interested in this piece?
             </p>
-            <a href="https://wa.me/1234567890?text=Hi%2C%20I'm%20interested%20in%20the%20VogueLine%20product" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 bg-[#C17A6F] hover:bg-[#A8685E] text-white text-sm font-medium tracking-wide rounded-full transition-colors duration-200">
+            <a href="https://wa.me/94755852632?text=Hi%2C%20I'm%20interested%20in%20the%20VogueLine%20product" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 bg-[#C17A6F] hover:bg-[#A8685E] text-white text-sm font-medium tracking-wide rounded-full transition-colors duration-200">
               Get in Touch
             </a>
           </div>
