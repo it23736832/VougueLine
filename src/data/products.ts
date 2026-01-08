@@ -15,10 +15,10 @@ export const products: Product[] = [{
   colors: ['Terracotta', 'Sand', 'Ivory'],
   material: '100% Organic Cotton',
   images: [
-    '/src/assets/images/products/VL001_product.png',
-    '/src/assets/images/products/VL001_model_front.png',
-    '/src/assets/images/products/VL001_model_back.png',
-    '/src/assets/images/products/VL001_back.png'
+    '/images/products/VL001_product.png',
+    '/images/products/VL001_model_front.png',
+    '/images/products/VL001_model_back.png',
+    '/images/products/VL001_back.png'
   ]
 }, {
   id: 'VL002',
