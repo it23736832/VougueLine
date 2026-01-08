@@ -14,7 +14,12 @@ export const products: Product[] = [{
   size: 'S / M / L',
   colors: ['Terracotta', 'Sand', 'Ivory'],
   material: '100% Organic Cotton',
-  images: ['https://placehold.co/800x800/F5E6D3/8B7355?text=VL001+Product', 'https://placehold.co/800x800/E8DDD4/8B7355?text=VL001+Model', 'https://placehold.co/800x800/F0E4DB/8B7355?text=VL001+Back', 'https://placehold.co/800x800/EDE1D8/8B7355?text=VL001+Detail']
+  images: [
+    '/src/assets/images/products/VL001_product.png',
+    '/src/assets/images/products/VL001_model_front.png',
+    '/src/assets/images/products/VL001_model_back.png',
+    '/src/assets/images/products/VL001_back.png'
+  ]
 }, {
   id: 'VL002',
   name: 'Ocean Breeze Top',
