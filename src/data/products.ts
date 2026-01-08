@@ -27,7 +27,10 @@ export const products: Product[] = [{
   size: 'XS / S / M / L',
   colors: ['Seafoam', 'White', 'Dusty Blue'],
   material: 'Bamboo Blend Yarn',
-  images: ['https://placehold.co/800x800/D4E5E8/6B8B8D?text=VL002+Product', 'https://placehold.co/800x800/C8DDE0/6B8B8D?text=VL002+Model', 'https://placehold.co/800x800/D0E2E5/6B8B8D?text=VL002+Back', 'https://placehold.co/800x800/CCE0E3/6B8B8D?text=VL002+Detail']
+  images: ['/images/products/VL002_product.png',
+    '/images/products/VL002_model_front.png',
+    '/images/products/VL002_model_back.png',
+    '/images/products/VL002_back.png']
 }, {
   id: 'VL003',
   name: 'Meadow Vest',
@@ -35,7 +38,10 @@ export const products: Product[] = [{
   size: 'S / M / L',
   colors: ['Sage', 'Cream', 'Blush'],
   material: 'Merino Wool Blend',
-  images: ['https://placehold.co/800x800/E5E8D4/7D8B6B?text=VL003+Product', 'https://placehold.co/800x800/DDE0C8/7D8B6B?text=VL003+Model', 'https://placehold.co/800x800/E2E5D0/7D8B6B?text=VL003+Back', 'https://placehold.co/800x800/E0E3CC/7D8B6B?text=VL003+Detail']
+  images: ['/images/products/VL003_product.png',
+    '/images/products/VL003_model_front.png',
+    '/images/products/VL003_model_back.png',
+    '/images/products/VL003_back.png']
 }, {
   id: 'VL004',
   name: 'Dusk Shawl',
