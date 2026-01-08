@@ -52,9 +52,14 @@ export function ProductDetail({
           </span>
 
           {/* Product Name */}
-          <h2 id="product-title" className="font-serif text-3xl md:text-4xl text-[#3D3D3D] mb-4 tracking-wide leading-tight">
+          <h2 id="product-title" className="font-serif text-3xl md:text-4xl text-[#3D3D3D] mb-2 tracking-wide leading-tight">
             {product.name}
           </h2>
+
+          {/* Price */}
+          <p className="text-2xl font-semibold text-[#C17A6F] mb-4">
+            Rs. {product.price.toLocaleString()}
+          </p>
 
           {/* Description */}
           <p className="text-[#5A5A5A] leading-relaxed mb-8">

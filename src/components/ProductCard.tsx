@@ -22,9 +22,12 @@ export function ProductCard({
 
     {/* Product Info */}
     <div className="p-5">
-      <h3 className="font-serif text-lg text-[#3D3D3D] mb-1.5 tracking-wide">
+      <h3 className="font-serif text-lg text-[#3D3D3D] mb-1 tracking-wide">
         {product.name}
       </h3>
+      <p className="text-lg font-semibold text-[#C17A6F] mb-2">
+        Rs. {product.price.toLocaleString()}
+      </p>
       <p className="text-sm text-[#6B6B6B] mb-3 line-clamp-2">
         {product.description}
       </p>
