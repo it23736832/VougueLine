@@ -17,7 +17,7 @@ export const products: Product[] = [{
   id: 'VL001',
   name: 'Scarlet Sunset crop top',
   description: 'Designed with delicate shoulder straps, Perfect for summer days or layering under a jacket ',
-  price: 2500,
+  price: 1800,
   sizes: [
     { size: 'S', available: true },
     { size: 'M', available: false },
@@ -35,7 +35,7 @@ export const products: Product[] = [{
   id: 'VL002',
   name: 'Emerald Whisper Crochet Top',
   description: 'Featuring a high neckline and textured stitchwork, this piece provides both comfort and sophistication',
-  price: 2800,
+  price: 1800,
   sizes: [
     { size: 'XS', available: false },
     { size: 'S', available: true },
@@ -52,7 +52,7 @@ export const products: Product[] = [{
   id: 'VL003',
   name: 'Sunrise Coast Halter top',
   description: 'Featuring a graceful halter neckline and a dreamy two-tone color palette',
-  price: 2200,
+  price: 1800,
   sizes: [
     { size: 'S', available: true },
     { size: 'M', available: false },
@@ -68,7 +68,7 @@ export const products: Product[] = [{
   id: 'VL004',
   name: 'Crochet Bag',
   description: 'soft, dreamy, and very boutique-friendly.',
-  price: 1800,
+  price: 2200,
   sizes: [
     { size: 'One Size', available: true }
   ],
