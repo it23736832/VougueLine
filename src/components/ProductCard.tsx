@@ -8,10 +8,15 @@ export function ProductCard({
   product,
   onClick
 }: ProductCardProps) {
+  // Use taller aspect ratio for dresses, square for tops/bags
+  const aspectClass = product.category === 'dresses' ? 'aspect-[3/4]' : 'aspect-square';
+  // Dresses use object-cover with top positioning to show full width and top of dress
+  const objectFitClass = product.category === 'dresses' ? 'object-cover object-top' : 'object-cover';
+
   return <button onClick={onClick} className="group text-left w-full bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1" aria-label={`View details for ${product.name}`}>
     {/* Product Image */}
-    <div className="relative aspect-square overflow-hidden bg-[#F5F0EB]">
-      <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+    <div className={`relative ${aspectClass} overflow-hidden bg-[#F5F0EB]`}>
+      <img src={product.images[0]} alt={product.name} className={`w-full h-full ${objectFitClass} transition-transform duration-500 group-hover:scale-105`} />
       {/* Product Number Badge */}
       <div className="absolute top-3 left-3 px-2.5 py-1 bg-white/95 rounded-full">
         <span className="text-xs font-mono tracking-wider text-[#6B6B6B]">
