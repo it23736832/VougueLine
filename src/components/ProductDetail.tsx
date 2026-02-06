@@ -117,8 +117,8 @@ export function ProductDetail({
             <p className="text-sm text-[#8B8B8B] mb-3">
               Interested in this piece?
             </p>
-            <a href="https://wa.me/94755852632?text=Hi%2C%20I'm%20interested%20in%20the%20VogueLine%20product" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 bg-[#C17A6F] hover:bg-[#A8685E] text-white text-sm font-medium tracking-wide rounded-full transition-colors duration-200">
-              Get in Touch
+            <a href="https://wa.me/94766655898?text=Hi%2C%20I'm%20interested%20in%20the%20VogueLine%20product" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center w-14 h-14 rounded-full transition-all duration-200 hover:scale-110 shadow-lg" aria-label="Contact us on WhatsApp">
+              <img src="/images/whatsapp-icon.svg" alt="WhatsApp" className="w-14 h-14" />
             </a>
           </div>
         </div>
