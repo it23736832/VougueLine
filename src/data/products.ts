@@ -117,7 +117,7 @@ export const products: Product[] = [{
 }, {
   id: 'VL007',
   name: 'Garden Dress',
-  description: 'Classic charm with contemporary flair',
+  description: 'Classic charm with contemporary flair that brings out the beauty of simplicity.',
   price: 2500,
   sizes: [
     { size: '12', available: true },
@@ -147,7 +147,7 @@ export const products: Product[] = [{
 }, {
   id: 'VL009',
   name: 'Charm Dress',
-  description: 'Classic charm with contemporary flair.',
+  description: 'Classic charm with contemporary flair that brings out the elegance of the wardrobe.',
   price: 2500,
   sizes: [
     { size: '12', available: true },

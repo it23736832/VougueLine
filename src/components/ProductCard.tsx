@@ -26,7 +26,7 @@ export function ProductCard({
     </div>
 
     {/* Product Info */}
-    <div className="p-5">
+    <div className="p-5 min-h-[160px]">
       <h3 className="font-serif text-lg text-[#3D3D3D] mb-1 tracking-wide">
         {product.name}
       </h3>
@@ -41,7 +41,7 @@ export function ProductCard({
           {product.sizes.filter(s => s.available).map(s => s.size).join(' / ') || 'Sold Out'}
         </span>
         <span className="text-xs text-[#8B8B8B] bg-[#F5F2EF] px-2.5 py-1 rounded-full">
-          {product.colors.length} colors
+          {product.colors.length} {product.colors.length === 1 ? 'color' : 'colors'}
         </span>
       </div>
     </div>
