@@ -93,11 +93,10 @@ export const products: Product[] = [{
     { size: '14', available: true },
     { size: '16', available: false }
   ],
-  colors: ['Blush Pink', 'Ivory white', 'Black'],
+  colors: ['Blush Pink', 'Ivory white'],
   material: 'Cotton Blend',
   images: ['/images/products/VL005.png',
-    '/images/products/VL005_2.png',
-    '/images/products/VL005_3.png'
+    '/images/products/VL005_2.png'
   ],
   category: 'dresses'
 }, {
@@ -138,9 +137,11 @@ export const products: Product[] = [{
     { size: '14', available: true },
     { size: '16', available: false }
   ],
-  colors: ['Mauve Pink'],
+  colors: ['Mauve Pink','Ivory White' ,'Black'],
   material: '',
-  images: ['/images/products/VL008.png'],
+  images: ['/images/products/VL008.png', 
+    '/images/products/VL008_2.png', 
+    '/images/products/VL008_3.png'],
   category: 'dresses'
 }, {
   id: 'VL009',
